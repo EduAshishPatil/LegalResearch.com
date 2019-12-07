@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Software</title>
+    <link rel="stylesheet" href="../index.css">
+    <script src="https://kit.fontawesome.com/cfa694134d.js" crossorigin="anonymous"></script>
+
+    <style>
+        .addCard {
+            padding: 5px;
+        }
+        
+        article#table {
+            padding-top: 50px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+
+        <!-- HEADER -->
+        <header>
+            <!-- SVG LOGO-->
+
+            <a href="../index.html">
+                <svg id="awesomeco_logo">
+                    <polyline id="line" points="-950,40 30,0 60,40 409,40"
+                        style="fill:none;stroke:white;stroke-width:2">
+                    </polyline>
+
+
+                    <text id="AwesomeCo" fill="rgb(255,0,0)" font-family="Arial" font-size="40" font-style="italic"
+                        font-weight="normal">
+                        <tspan x="60" y="36" fill="white">LegalResearch.com</tspan>
+                    </text>
+                </svg>
+
+            </a>
+
+        </header>
+
+        <!-- ASIDE SECTION -->
+
+        <aside>
+
+            <!-- NAV SECTION -->
+            <nav id="left">
+                <a href="../index.html"> Home</a>
+                <a href="about.html">About Us </a>
+                <a href="software.html">Software</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="signUp.html">Sign Up</a>
+                <a href="login.html">Sign In</a>
+            </nav>
+
+        </aside>
+
+
+        <!-- MAIN SECTION -->
+        <section id="right">
+
+            <article id="table">
+                <table border="1">
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>Software Name</th>
+                        <th>Price</th>
+                        <th>Image</th>
+                        <th>Owner</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td class="software">Windows</td>
+                        <td>3000 </td>
+                        <td><img src="../Image/windows 10.jpg" alt="windows 10" width="30px" height="30px"></td>
+                        <td>Microsoft</td>
+                        <td>
+
+                            <input class="addCard" type="submit" onclick="myFuction(this.software)" value="Add to Cart">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Adobe</td>
+                        <td>2000 </td>
+                        <td><img src="../Image/adobe.png" alt="windows 10" width="30px" height="30px"></td>
+                        <td>Adobe Inc.</td>
+                        <td>
+                            <input class="addCard" type="submit" onclick="myFuction()" value="Add to Cart">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Java</td>
+                        <td>Free </td>
+                        <td><img src="../Image/java.jpeg" alt="windows 10" width="30px" height="30px"></td>
+                        <td>Sun Microsystems</td>
+                        <td>
+                            <input class="addCard" type="submit" onclick="myFuction()" value="Add to Cart">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Linux</td>
+                        <td>Free </td>
+                        <td><img src="../Image/linux.jpg" alt="windows 10" width="30px" height="30px"></td>
+                        <td>Linux</td>
+                        <td>
+                            <input class="addCard" type="submit" onclick="myFuction()" value="Add to Cart">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Mozilla Firefox</td>
+                        <td>Free </td>
+                        <td><img src="../Image/firefox.png" alt="windows 10" width="30px" height="30px"></td>
+                        <td>Mozilla Corporation</td>
+                        <td>
+                            <input class="addCard" type="submit" onclick="myFuction()" value="Add to Cart">
+
+                        </td>
+                    </tr>
+                </table>
+            </article>
+
+        </section>
+
+        <!------------------------------FOOTER ------------------------------->
+        <footer>
+
+            <div class="footNote">
+
+                <div class="cf">
+                    <div id="fCompany" class="float">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Ad Choices</a></li>
+                            <li><a href="#">Press Releases</a></li>
+                        </ul>
+                    </div>
+                    <div id="fSupport" class="float">
+                        <h4>Support</h4>
+                        <ul>
+                            <li>080-35495126</li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Articles</a></li>
+                        </ul>
+                    </div>
+                    <div id="fFollow" class="float">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="fNote">
+                    <p>Please note that Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel consequuntur eius perspiciatis laudantium dolor cum nisi provident quibusdam laborum, voluptatem tempore esse incidunt distinctio error et recusandae. Laboriosam,
+                        <a style="display: inline;" id="foot" href="#">Read complete disclaimer text here.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <h4>All Rights Reseerved &copy</h4>
+            </div>
+
+        </footer>
+
+    </div>
+    <script>
+        function myFuction(msg) {
+            alert("Product added to Cart")
+        }
+    </script>
+</body>
+
+</html>../

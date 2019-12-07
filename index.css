@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.cf {
+    display: table;
+    content: "";
+    clear: both;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fab {
+    font-size: 30px;
+}
+
+footer .fab:hover {
+    color: red;
+}
+
+
+/*-------------------- HEADER -------------------------------------- */
+
+header {
+    background-color: #405192;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+svg {
+    height: 45px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+/* ---------------------------------LEFT SECTION  (ASIDE)---------------------------- */
+
+aside {
+    padding: 80px 0;
+}
+
+nav#left a:hover {
+    background-color: rgba(70, 131, 180, 0.877);
+    color: white;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+#left {
+    background-color: #B4DFE5;
+    position: absolute;
+    width: 15%;
+    height: 500px;
+    top: 109px;
+    left: 0;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#left a {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #405192;
+    padding: 10px 5px;
+}
+
+
+/* --------------------------------MAIN SECTION ----------------------*/
+
+#right {
+    position: absolute;
+    width: 85%;
+    height: 500px;
+    top: 109px;
+    left: 15%;
+    padding: 30px;
+    background-color: rgb(226, 254, 255);
+}
+
+
+/* ---------------------------TABLE-------------------------- */
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+table,
+tr,
+td,
+th {
+    padding: 10px;
+    color: #405192;
+}
+
+th {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+td {
+    border-right: 2px solid black;
+}
+
+
+/*=------------------------ FOOTER --------------------------------*/
+
+footer {
+    color: white;
+    position: absolute;
+    top: 669px;
+    background-color: #405192;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+#fNote::after {
+    content: "";
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    height: 1px;
+    margin-top: 20px;
+    background-color: #D2FDFF;
+}
+
+#foot {
+    color: blue !important;
+    font-family: serif;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+div.footNote {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.footNote .cf ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.footNote .cf li {
+    padding-top: 10px;
+}
+
+.footNote .cf ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footNote .cf ul li a:hover {
+    color: red;
+}
+
+.footNote .cf h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.float {
+    width: 33.3%;
+    float: left;
+}

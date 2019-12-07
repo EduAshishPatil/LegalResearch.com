@@ -1,0 +1,57 @@
+div #contact {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.email,
+.phone {
+    display: block;
+    padding-top: 5px;
+}
+
+address {
+    padding: 5px 0;
+}
+
+.cFloat {
+    width: 33.3%;
+    float: left;
+}
+
+.cFloat div {
+    margin-bottom: 15px;
+}
+
+.cFloat div p {
+    text-align: justify;
+    width: 62%;
+}
+
+.cFloat h3 {
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact input,
+textarea {
+    display: block;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+
+/* -------------------------DIALOGBOX ----------------------*/
+
+dialog {
+    padding: 20px;
+    position: absolute;
+    top: 380px;
+    left: 950px;
+    text-align: center;
+}
+
+dialog input {
+    padding: 5px;
+    margin: 5px;
+}

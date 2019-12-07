@@ -1,0 +1,40 @@
+.aFloat {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+article div.parent div,
+h2 {
+    padding: 10px 5px;
+    text-align: justify;
+}
+
+article div.parent h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+article div.parent h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 0;
+}
+
+article div.parent div p {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.02rem;
+    line-height: 1.5rem;
+}
+
+article div.parent h2:hover {
+    background-color: #405192;
+    transition: all 0.5s;
+    color: white;
+}
+
+div.parent div.story {
+    padding: 30px 0;
+}
